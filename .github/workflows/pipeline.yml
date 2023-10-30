@@ -35,7 +35,7 @@ jobs:
 # ------- START MERGE PROCCESS -------- #
  
   MergeMainFront:
-    needs: [TestFront]
+    needs: [InstallPackage]
     name: Merge Pre deploy with Main
     permissions: write-all
     runs-on: ubuntu-latest
